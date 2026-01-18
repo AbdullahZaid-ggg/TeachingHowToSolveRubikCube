@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+[dir="rtl"] .navbar-brand {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+[dir="rtl"] .btn {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+[dir="rtl"] .accordion-body ul {
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+[dir="rtl"] .accordion-body h5 {
+    text-align: right;
+}
+
+#canvas {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+#cube-container {
+    text-align: center;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #e7f3ff;
+}
+
+.card {
+    margin-top: 20px;
+}
